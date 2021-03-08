@@ -248,3 +248,48 @@ body {
     }
 }
 
+/* DEPLOY SECTION */
+
+.deploy {
+    margin-bottom: 40px;
+}
+
+.deploy h2 {
+    margin-top: 50px;
+    font-weight: bold;
+    color: #0a2253;
+    font-size: 40px;
+}
+
+.deploy p {
+    color: #5c6a88;
+    font-size: 24px;
+}
+
+.deploy .deploy-list>li {
+    list-style: none;
+    text-align: left;
+    font-size: 22px;
+    color: #5c6a88;
+    line-height: 50px;
+}
+
+.deploy .deploy-list>li::before {
+    content: '';
+    border-left: 2px solid #ccc;
+    position: relative;
+    left: -25px;
+    padding-bottom: 18px;
+    padding-top: 10px;
+}
+
+.deploy h4 {
+    margin: 15px 0;
+    color: #0a2253;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.deploy .img-text {
+    font-size: 13px;
+}
