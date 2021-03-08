@@ -77,6 +77,7 @@ body {
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
     background-size: contain;
+    margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -194,3 +195,56 @@ body {
 }
 
 /* SECTION IMGS */
+
+.img-section {
+    background: #f3f5f9;
+}
+
+.img-section h4 {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #707c98;
+}
+
+.img-section .img-content a {
+    display: block;
+    margin-bottom: 30px;
+    color: #2687fd;
+    cursor: pointer;
+}
+
+.img-section .img-content a>i {
+    margin-left: 5px;
+    font-size: 10px;
+    vertical-align: middle;
+    color: #2687fd;
+    cursor: pointer;
+}
+
+.img-section .img-content img {
+    margin: 20px;
+    width: calc((100% / 2) - 50px);
+    height: auto;
+    cursor: pointer;
+}
+
+/* HOVER INTERACTIONS */
+
+.img-section .img-content a:hover {
+    color: #0a2253;
+    text-decoration: none;
+}
+
+.img-section .img-content a>i:hover {
+    color: #0a2253;
+}
+
+/* BREAK POINT IMG */
+
+@media screen and (min-width: 768px) {
+    .img-section .img-content img {
+        width: calc((100% / 6) - 44px);
+
+    }
+}
