@@ -1,0 +1,60 @@
+/* NAV BAR */
+.main-header {
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.main-header .padding-ta {
+    padding: 11px 12px;
+}
+
+.main-header .padding-ta1 {
+    padding: 5px 0;
+}
+
+.main-header img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.main-header .hamburger {
+    color: #2687fd;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.main-header .hamburger:hover {
+    cursor: pointer;
+}
+
+.main-header .list-inline li>i {
+    font-size: 14px;
+    color: #415378;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.main-header .list-inline li>i:hover {
+    color: #2687fd;
+}
+
+.main-header .list-inline li>a {
+    color: #415378;
+    font-size: 16px;
+}
+
+.main-header .list-inline .btn {
+    border: 1px solid #2687fd;
+    color: #2687fd;
+    font-weight: bold;
+}
+
+.main-header .list-inline li>a:hover {
+    text-decoration: none;
+    color: #2687fd;
+}
+
+.main-header .list-inline .btn:hover {
+    background: rgba(65,83,120, .3);
+}
+
