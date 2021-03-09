@@ -431,3 +431,56 @@ body {
     text-decoration: none;
     color: #0a2253;
 }
+
+/* SECTION SERVICE */
+
+.service {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #0047c5;
+}
+
+.service h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.service .border-bottom {
+    border-bottom: 1px solid #fff;
+}
+
+.service .white-txt {
+    font-weight: bold;
+    color: #fff;
+}
+
+.service p {
+    color: #bbc9eb;
+}
+
+.service a {
+    font-size: 10px;
+    color: #00d7d2;
+}
+
+.service i {
+    font-size: 10px;
+    color: #00d7d2;
+}
+
+.service .line-eight {
+    line-height: 20px;
+}
+
+.service .pd-top {
+    padding-top: 20px;
+}
+
+.service .l-border-bottom {
+    border-bottom: 0;
+}
+
+.service .mrgn-top {
+    margin-top: 20px;
+}
