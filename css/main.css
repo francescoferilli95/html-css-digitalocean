@@ -615,5 +615,22 @@ body {
 /* START NOW SECTION */
 
 .start-now {
-    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(#0041bb, #00219c);
+}
+
+.start-now h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.start-now .btn {
+    padding: 13px;
+    color: #2687fd;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
 }
