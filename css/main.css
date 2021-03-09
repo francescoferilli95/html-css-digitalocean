@@ -224,7 +224,7 @@ body {
 
 .img-section .img-content img {
     margin: 0 10px;
-    width: calc((100% / 2) - 22px);
+    width: calc((100% / 2) - 44px);
     height: auto;
     cursor: pointer;
 }
@@ -293,3 +293,4 @@ body {
 .deploy .img-text {
     font-size: 13px;
 }
+
