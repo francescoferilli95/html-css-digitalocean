@@ -294,3 +294,92 @@ body {
     font-size: 13px;
 }
 
+/* SLIDER SECTION */
+
+.slider {
+    position: relative;
+    background: #f3f5f9;
+}
+
+.slider h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0a2253;
+}
+
+.slider p {
+    font-size: 19px;
+    color: #5c6a88;
+}
+
+.slider .slide-txt {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #0a2253;
+}
+
+.slider a {
+    display: none;
+    font-size: 60px;
+}
+
+.slider .slide {
+    position: relative;
+    width: 40%;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+}
+
+.slider .slide-content {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.slider .list-inline .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #2687fd;
+    cursor: pointer;
+}
+
+.slider .list-inline .full-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #2687fd;
+    border: 1px solid #2687fd;
+    cursor: pointer;
+}
+
+/* BREAK POINT SLIDER SECTION */
+
+@media screen and (min-width: 768px) {
+    .slider .slide {
+        width: 60%;
+    }
+
+    .slider .slide-content {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .slider a {
+        display: initial;
+    }
+
+    .slider .slide-content .angle-left {
+        position: absolute;
+        left: -50px;
+        top: 58%;
+        color: #5c6a88;
+    }
+
+    .slider .slide-content .angle-right {
+        position: absolute;
+        right: -50px;
+        top: 58%;
+        color: #0a2253;
+    }
+}
