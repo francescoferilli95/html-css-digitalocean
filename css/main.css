@@ -484,3 +484,118 @@ body {
 .service .mrgn-top {
     margin-top: 20px;
 }
+
+/* DEVELOPER SECTION */
+
+.developer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f3f5f9;
+}
+
+.developer h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0a2253;
+}
+
+.developer .rockerbox {
+    position: relative;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #fff;
+}
+
+.developer p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #5c6a88;
+}
+
+.developer .author {
+    display: block;
+    font-size: 18px;
+    color: #0a2253;
+}
+
+.developer .role {
+    display: block;
+    font-size: 18px;
+    color: #0a2253;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.developer a {
+    color: #2687fd;
+}
+
+.developer .rockerbox img {
+    padding-top: 20px;
+}
+
+.developer .arrow {
+    vertical-align: middle;
+    color: #2687fd;
+    margin-left: 10px;
+}
+
+.developer .left .angle-left,
+.developer .right .angle-right {
+    display: none;
+    font-size: 60px;
+}
+
+.developer .list-inline .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #2687fd;
+    cursor: pointer;
+}
+
+.developer .list-inline .full-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #2687fd;
+    border: 1px solid #2687fd;
+    cursor: pointer;
+}
+
+/* BREAK POINT DEVELOPER SECTION */
+
+@media screen and (min-width: 768px) {
+    .developer .rockerbox {
+        width: 60%;
+    }
+    .developer .rockerbox img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .developer .left .angle-left,
+    .developer .right .angle-right {
+        display: initial;
+    }
+
+    .developer .left .angle-left {
+        position: absolute;
+        left: -50px;
+        top: 58%;
+        color: #5c6a88;
+    }
+
+    .developer .right .angle-right {
+        position: absolute;
+        right: -50px;
+        top: 58%;
+        color: #0a2253;
+    }
+}
