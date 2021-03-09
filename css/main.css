@@ -485,6 +485,10 @@ body {
     margin-top: 20px;
 }
 
+.service a:hover {
+    text-decoration: none;
+}
+
 /* DEVELOPER SECTION */
 
 .developer {
@@ -533,6 +537,7 @@ body {
 }
 
 .developer a {
+    text-decoration: none;
     color: #2687fd;
 }
 
@@ -569,6 +574,13 @@ body {
     cursor: pointer;
 }
 
+/* DEVELOPER SECTION HOVER INTERACTIONS */
+
+.developer .rockerbox a:hover,
+.developer .rockerbox i:hover {
+    color: #0a2253;
+}
+
 /* BREAK POINT DEVELOPER SECTION */
 
 @media screen and (min-width: 768px) {
@@ -598,4 +610,10 @@ body {
         top: 58%;
         color: #0a2253;
     }
+}
+
+/* START NOW SECTION */
+
+.start-now {
+    
 }
