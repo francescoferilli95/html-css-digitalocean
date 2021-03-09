@@ -634,3 +634,50 @@ body {
     font-weight: bold;
     border-radius: 8px;
 }
+
+/* FOOTER */
+
+.main-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #031c4e;
+}
+
+.main-footer img {
+    margin-bottom: 20px;
+}
+
+.main-footer span {
+    font-size: 16px;
+    display: block;
+    color: #727d98;
+}
+
+.main-footer i {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #727d98;
+    cursor: pointer;
+}
+
+.main-footer h4 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-footer .list>li {
+    list-style: none;
+}
+
+.main-footer .list>li>a {
+    color: #727d98;
+}
+
+/* BREAK POINT FOOTER FOR DESKTOP */
+
+@media screen and (min-width: 992px) {
+    .main-footer .list>li {
+        margin-left: -35px;
+    }
+}
