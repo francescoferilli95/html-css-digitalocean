@@ -299,6 +299,8 @@ body {
 .slider {
     position: relative;
     background: #f3f5f9;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .slider h2 {
@@ -382,4 +384,50 @@ body {
         top: 58%;
         color: #0a2253;
     }
+}
+
+/* FEATURES SECTION */
+
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #0a2253;
+}
+
+.features h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0a2253;
+}
+
+.features p {
+    font-size: 18px;
+    color: #5c6a88;
+}
+
+.features .mrgn-bottom {
+    margin-bottom: 30px;
+}
+
+.features a {
+    color: #2687fd;
+}
+
+.features i {
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/* HOVER INTERACTIONS */
+
+.features a:hover {
+    text-decoration: none;
+    color: #0a2253;
 }
